@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #b2a9a9;
+        }
+
+        tr:nth-child(even) {
+            background-color: #c18b8b;
+        }
+
+        thead tr th {
+            background-color: hsl(0, 28%, 5%);
+            color: white;
+            border: 2px solid white;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form{
+            margin-top: 20px;
+            height: 260px;
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+
+    <table>
+        <h2>This is important informatiofor you</h2>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Subject</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Vikas</td>
+                <td>BCA</td>
+                <td>CS</td>
+            </tr>
+            <tr>
+                <td>Ashish</td>
+                <td>BA</td>
+                <td>History</td>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td>BCA</td>
+                <td>Discrete</td>
+            </tr>
+            <tr>
+                <td>Awesh</td>
+                <td>MA</td>
+                <td>Mathematics</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+   
+
+    <form>
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="E-mail">E - m a il :</label>
+        <input type="E-mail" id="E-mail" name="E-mail" required><br><br>
+
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+
+        <label for="number">Mo . num:</label>
+        <input type="number" class="number"><br><br>
+
+
+        <input type="submit" value="Login">
+    </form>
+    </body>
+
+</html>
