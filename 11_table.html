@@ -1,0 +1,88 @@
+<!DOCTYPE dtml>
+<dtml lang="en">
+
+    <head>
+        <meta cdarset="UTF-8">
+        <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+        <title>table</title>
+        <style>
+            table {
+                /* width: 100%; */
+                border-collapse: collapse;
+                text-align: center;
+            }
+
+
+            td,
+            th {
+                border: 2px solid rgb(246, 244, 244);
+                color: rgb(5, 5, 5);
+                padding: 10px;
+            }
+
+
+            tr {
+                background-color: hsl(0, 13%, 74%);
+            }
+
+
+            tr:nth-child(even) {
+                background-color: rgb(207, 122, 122);
+                color: white;
+            }
+
+
+            tr:nth-child(odd) {
+                background-color: rgb(168, 72, 72);
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <table style="width: 100%;">
+
+
+                <colgroup>
+                    <col span="3" style="background-color: rgb(35, 232, 232);" />
+                </colgroup>
+
+
+                <tr>
+                    <th>Coutnry</th>
+                    <th>Country_Code</th>
+                    <th>E-mail</th>
+                </tr>
+
+                <tr>
+                    <td>India</td>
+                    <td>IN</td>
+                    <td>india@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>USA</td>
+                    <td>UA</td>
+                    <td>usa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>United state of Amrica</td>
+                    <td>UAE</td>
+                    <td>uae@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Japan</td>
+                    <td>JP</td>
+                    <td>jp@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>China</td>
+                    <td>CH</td>
+                    <td>ch@gmail.com</td>
+                </tr>
+
+
+            </table>
+
+    </body>
+</dtml>
